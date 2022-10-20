@@ -1,0 +1,82 @@
+{
+	"easycom": {
+			// uView
+			// "^u-(.*)": "@/components/uni_modules/uview-ui/components/u-$1/u-$1.vue",
+			// uni-ui
+			"autoscan": true,
+			        "custom": {
+						// uView
+						"^u-(.*)": "@/components/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+			        }
+		},
+	"pages": [
+		{   // 首页
+			"path": "pages/index/index",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		},
+		{   // 校园
+			"path": "pages/campus/campus",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		},
+		{	// 我
+			"path": "pages/me/me",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{	// 登录
+			"path": "pages/login/login",
+			"style" :
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{	// 消息
+			"path" : "pages/news/news",
+			"style" :                                                                                    
+				{
+					"navigationBarTitleText": "",
+					"enablePullDownRefresh": false
+				}
+			
+		},
+		{	// 聊天室
+			"path" : "pages/page_code/page-news/page-chatroom/page-chatroom",
+			"style" :                                                                                    
+			{
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+			
+		},
+		{	// 动态详情页面
+            "path" : "pages/page_code/page-common/page-specifics/page-specifics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校园APP",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
